@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.xplorer">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Xplorer">
+        <activity
+            android:name=".the_one.Test.CommentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".the_one.Test.recycleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".the_one.homeUpload.New.post_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".the_one.homeUpload.profile_screen"
+            android:exported="false" />
+        <activity
+            android:name=".the_one.homeUpload.current_loc"
+            android:exported="false" />
+        <activity
+            android:name=".the_one.homeUpload.upload_screen"
+            android:exported="false" />
+        <activity
+            android:name=".the_one.homeUpload.home_screen"
+            android:exported="false" />
+        <activity
+            android:name=".the_one.loginSignupPro.new_password"
+            android:exported="false" />
+        <activity
+            android:name=".the_one.loginSignupPro.verification_screen"
+            android:exported="false" />
+        <activity
+            android:name=".the_one.loginSignupPro.signup_screen3"
+            android:exported="false" />
+        <activity
+            android:name=".the_one.loginSignupPro.signup_screen2"
+            android:exported="false" />
+        <activity
+            android:name=".the_one.welcome.welcome_screen"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".the_one.loginSignupPro.signup_screen"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".the_one.loginSignupPro.login_screen"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

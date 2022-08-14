@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".the_one.homeUpload.upload_screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:cropToPadding="true"
+                android:scaleType="centerInside"
+                android:src="@mipmap/ic_launcher_background" />
+
+            <Button
+                android:id="@+id/addImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image"
+                android:background="#00000000"
+                android:text="Add image"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/addDetails"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/addImage"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:gravity="center"
+                android:hint="TITLE"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/location"
+                android:layout_below="@+id/addDetails">
+
+                <TextView
+                    android:id="@+id/tv_latt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/addDetails"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="Latitude"
+                    android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/tv_longi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_latt"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="Longitude"
+                android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="get location"
+                    android:textColor="@color/black"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/upload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/location"
+                android:background="@color/black"
+                android:text="Upload"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

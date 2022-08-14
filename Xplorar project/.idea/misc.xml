@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/drawable-anydpi/ic_date.xml" value="0.132" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/drawable/arrow_back.xml" value="0.1325" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/drawable/background_box.xml" value="0.125" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/drawable/border_black.xml" value="0.14" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/drawable/comment.xml" value="0.132" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.132" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/drawable/upload_image.xml" value="0.132" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/drawable/user_email.xml" value="0.1285" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout-v21/activity_signup_screen3.xml" value="0.209375" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/activity_comments.xml" value="0.22" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/activity_current_loc.xml" value="0.1718683197947841" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/activity_home_screen.xml" value="0.22" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/activity_login_screen.xml" value="0.2" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/activity_main.xml" value="0.17481884057971014" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/activity_new_password.xml" value="0.2" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/activity_post.xml" value="0.22" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/activity_profile_screen.xml" value="0.22" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/activity_recycle.xml" value="0.16969185310257492" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/activity_signup_screen.xml" value="0.209375" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/activity_signup_screen2.xml" value="0.1718683197947841" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/activity_signup_screen3.xml" value="0.25" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/activity_testing_demo.xml" value="0.1718683197947841" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/activity_upload_screen.xml" value="0.22" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/activity_verification_screen.xml" value="0.22" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/activity_welcome_screen.xml" value="0.22" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/fragment_home.xml" value="0.1718683197947841" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/fragment_profile.xml" value="0.16032492518170158" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/fragment_upload.xml" value="0.1718683197947841" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/image_item.xml" value="0.25" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/layout/singlerow.xml" value="0.22" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/menu/bottom_nevigation.xml" value="0.1718683197947841" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/new Android/Xplorar project/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1325" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

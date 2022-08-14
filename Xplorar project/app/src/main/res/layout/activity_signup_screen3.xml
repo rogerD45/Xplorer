@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_v"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="30dp"
+    android:transitionName="signup_transition"
+    tools:context=".the_one.loginSignupPro.signup_screen3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/sgnup_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/arrow_back"
+            android:transitionName="animatetobackbtn" />
+
+        // Details
+
+        <TextView
+            android:id="@+id/signup_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="Signup"
+            android:textAllCaps="true"
+            android:textColor="#232323"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:transitionName="animatetoNextTitletext" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+<!--            <com.hbb20.CountryCodePicker-->
+<!--                android:id="@+id/country_code_picker"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/background_box"-->
+<!--                app:ccp_autoDetectCountry="true"-->
+<!--                app:ccp_showFlag="true"-->
+<!--                app:ccp_showFullName="true"-->
+<!--                app:ccp_showNameCode="true" />-->
+
+            <EditText
+                android:id="@+id/countryCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Country code"
+                android:textColorHint="#373737"
+                android:fontFamily="@font/baloo_bhai"
+                android:inputType="text"
+                android:textAlignment="center"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Phone no."
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:hintTextColor="@color/black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/enter_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_next_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/baloo_bhai"
+            android:onClick="CallVerifyOTPScreen"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:transitionName="animatetoNextSignup" />
+
+            <ProgressBar
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/bar_progress"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+        </FrameLayout>
+        <Button
+            android:id="@+id/btn_back_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#00000000"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="Already have account"
+            android:textColor="@color/black"
+            android:transitionName="animatebacklogin" />
+
+    </LinearLayout>
+</ScrollView>

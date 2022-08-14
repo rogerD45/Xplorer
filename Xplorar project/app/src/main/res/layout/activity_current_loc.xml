@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".the_one.homeUpload.current_loc">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitude"
+            android:fontFamily="@font/baloo_bhai"
+            android:textSize="20sp"
+            android:id="@+id/tv_latt"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude"
+            android:fontFamily="@font/baloo_bhai"
+            android:textSize="20sp"
+            android:id="@+id/tv_longi"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:fontFamily="@font/baloo_bhai"
+            android:textSize="20sp"
+            android:id="@+id/tv_addrs"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Locality"
+            android:fontFamily="@font/baloo_bhai"
+            android:textSize="20sp"
+            android:id="@+id/tv_local"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country"
+            android:fontFamily="@font/baloo_bhai"
+            android:textSize="20sp"
+            android:id="@+id/tv_con"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="Current location"
+            android:textColor="@color/white"
+            android:fontFamily="@font/baloo_bhai"
+            android:layout_marginTop="20dp"
+            android:id="@+id/button"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

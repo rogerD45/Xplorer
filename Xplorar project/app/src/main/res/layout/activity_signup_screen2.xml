@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".the_one.loginSignupPro.signup_screen2"
+    android:padding="30dp"
+    android:transitionName="signup_transition">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/sgnup_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/arrow_back"
+            android:transitionName="animatetobackbtn"/>
+
+        // Details
+
+        <TextView
+            android:id="@+id/signup_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="Signup"
+            android:textAllCaps="true"
+            android:textColor="#232323"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:transitionName="animatetoNextTitletext" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:fontFamily="@font/baloo_bhai"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <RadioGroup
+                android:id="@+id/r_group"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="Male" />
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="Female" />
+
+                <RadioButton
+                    android:id="@+id/other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="Other" />
+            </RadioGroup>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.75dp"
+                android:background="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D.O.B"
+                android:fontFamily="@font/baloo_bhai"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <DatePicker
+                android:id="@+id/age_picker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:datePickerMode="spinner"
+                android:soundEffectsEnabled="true"
+                android:calendarViewShown="false"
+                android:spinnersShown="true"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_next_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/baloo_bhai"
+            android:onClick="Nextcallsignup"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:transitionName="animatetoNextSignup" />
+
+        <Button
+            android:id="@+id/btn_back_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/baloo_bhai"
+            android:background="#00000000"
+            android:text="Already have account"
+            android:textColor="@color/black"
+            android:transitionName="animatebacklogin"/>
+
+    </LinearLayout>
+</ScrollView>
